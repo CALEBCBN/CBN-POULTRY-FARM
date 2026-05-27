@@ -1,151 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CBN's Poultry Farm</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CBN Poultry Farm</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #f5f5f5;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+}
 
-        header {
-            background: linear-gradient(to right, #0f9b0f, #006400);
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("broilers.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
 
-        nav {
-            background: #111;
-            padding: 15px;
-            text-align: center;
-        }
+.hero h1 {
+    font-size: 40px;
+}
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.hero p {
+    font-size: 18px;
+}
 
-        nav a:hover {
-            color: #00ff88;
-        }
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #00c853;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
-        .container {
-            padding: 30px;
-        }
+.btn:hover {
+    background: #009624;
+}
 
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
+/* NAV */
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
 
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            text-align: center;
-        }
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        .card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
+/* SECTION */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
 
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #0f9b0f;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
 
-        .btn:hover {
-            background: #006400;
-        }
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
 
-        footer {
-            background: #111;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-        }
-    </style>
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
 </head>
 
 <body>
 
-<header>
-    <h1>CBN's Poultry Farm</h1>
+<!-- HERO -->
+<div class="hero">
+    <h1>CBN Poultry Farm</h1>
     <p>Fully Grown Broiler Chickens • Fresh • Ready for Consumption</p>
-</header>
+    <a class="btn" href="https://wa.me/265883689015">Order Now on WhatsApp</a>
+</div>
 
+<!-- NAV -->
 <nav>
     <a href="#">Home</a>
     <a href="#">Products</a>
     <a href="#">Contact</a>
 </nav>
 
-<div class="container">
+<!-- ABOUT -->
+<div class="section">
+    <h2>About Us</h2>
+    <p>
+    We specialize in fully grown broiler chickens ready for slaughter and consumption.
+    Our chickens are healthy, well-fed, and raised under proper care to ensure high quality meat.
+    </p>
+</div>
 
-    <div class="card">
-        <h2>About Our Farm</h2>
-        <p>
-        We supply fully grown broiler chickens that are ready for slaughter and consumption. 
-        Our chickens are healthy, well-fed, and raised under proper care to ensure good weight and quality meat. 
-        Available for both small and bulk orders at affordable prices.
-        </p>
-    </div>
+<!-- PRODUCTS -->
+<div class="section">
+    <h2>Our Broilers</h2>
 
     <div class="grid">
 
         <div class="card">
-            <h2>Our Broilers</h2>
             <img src="broilers.jpg">
-            <p>Healthy, fully grown broiler chickens ready for sale.</p>
+            <h3>Market Ready Chickens</h3>
+            <p>Fully grown broilers ready for sale and cooking.</p>
         </div>
 
         <div class="card">
-            <h2>Farm Quality</h2>
             <img src="broilers2.jpg">
-            <p>Raised with proper feeding, hygiene, and care.</p>
+            <h3>Healthy & Well Fed</h3>
+            <p>Raised with proper feeding and hygiene.</p>
         </div>
 
         <div class="card">
-            <h2>Day-old Chicks</h2>
             <img src="chicks.jpg">
-            <p>Strong and healthy chicks for poultry farmers.</p>
+            <h3>Strong Chicks</h3>
+            <p>Available for poultry farmers.</p>
         </div>
 
     </div>
+</div>
 
-    <div style="text-align:center; margin-top:30px;">
-        <h2>Order Now</h2>
-        <a class="btn" href="https://wa.me/265883689015">Chat on WhatsApp</a>
-    </div>
-
-    <div style="text-align:center; margin-top:30px;">
-        <h2>Contact Us</h2>
-        <p>📞 0883 689 015 | 0992 606 355</p>
-        <p>📍 Blantyre, Malawi</p>
-    </div>
-
+<!-- CONTACT -->
+<div class="section">
+    <h2>Contact Us</h2>
+    <p>📞 0883 689 015 | 0992 606 355</p>
+    <p>📍 Blantyre, Malawi</p>
 </div>
 
 <footer>
-    <p>© 2026 CBN's Poultry Farm</p>
+    <p>© 2026 CBN Poultry Farm</p>
 </footer>
 
 </body>
