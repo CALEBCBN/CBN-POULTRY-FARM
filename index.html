@@ -3,222 +3,360 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CBN Poultry Farm</title>
+
+<title>CBN POULTRY</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f4f4;
+
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:#f4f4f4;
+    color:#222;
 }
 
 /* HERO SECTION */
-.hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("broilers.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("broilers.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+    text-align:center;
+    padding:100px 20px;
 }
 
-.hero h1 {
-    font-size: 40px;
+.hero h1{
+    font-size:50px;
+    margin-bottom:10px;
 }
 
-.hero p {
-    font-size: 18px;
+.hero p{
+    font-size:20px;
+    margin-bottom:25px;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 25px;
-    background: #00c853;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+/* BUTTON */
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#00c853;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
 }
 
-.btn:hover {
-    background: #009624;
+.btn:hover{
+    background:#009624;
 }
 
-/* NAV */
-nav {
-    background: #111;
-    padding: 15px;
-    text-align: center;
+/* NAVIGATION */
+
+nav{
+    background:#111;
+    padding:15px;
+    text-align:center;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
 }
 
-/* SECTION */
-.section {
-    padding: 50px 20px;
-    text-align: center;
+/* GENERAL SECTION */
+
+.section{
+    padding:60px 20px;
+    text-align:center;
 }
 
-/* GRID */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+.section h2{
+    color:#2e7d32;
+    font-size:36px;
+    margin-bottom:15px;
 }
 
-/* CARD */
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+/* PRODUCTS GRID */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:25px;
+    padding:20px;
 }
 
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+/* PRODUCT CARD */
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h3{
+    margin-top:15px;
+}
+
+/* PRICE SECTION */
+
+.price-section{
+    padding:60px 20px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.price-grid{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.price-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:280px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.price-card h3{
+    color:#222;
+}
+
+.price{
+    font-size:32px;
+    color:#2e7d32;
+    margin:15px 0;
+    font-weight:bold;
+}
+
+.bulk{
+    background:#2e7d32;
+    color:white;
+}
+
+.bulk .price{
+    color:white;
 }
 
 /* FOOTER */
-footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 20px;
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
+
 </style>
 </head>
 
 <body>
 
 <!-- HERO -->
+
 <div class="hero">
-    <h1>CBN Poultry Farm</h1>
-    <p>Fully Grown Broiler Chickens • Fresh • Ready for Consumption</p>
-    <a class="btn" href="https://wa.me/265883689015">Order Now on WhatsApp</a>
+
+    <h1>CBN POULTRY</h1>
+
+    <p>
+        Fully Grown Broiler Chickens • Fresh • Ready for Consumption
+    </p>
+
+    <a class="btn" href="https://wa.me/265883689015">
+        Order Now on WhatsApp
+    </a>
+
 </div>
 
-<!-- NAV -->
+<!-- NAVIGATION -->
+
 <nav>
+
     <a href="#">Home</a>
     <a href="#">Products</a>
+    <a href="#">Prices</a>
     <a href="#">Contact</a>
+
 </nav>
 
-<!-- ABOUT -->
+<!-- ABOUT SECTION -->
+
 <div class="section">
+
     <h2>About Us</h2>
+
     <p>
-    We specialize in fully grown broiler chickens ready for slaughter and consumption.
-    Our chickens are healthy, well-fed, and raised under proper care to ensure high quality meat.
+        We specialize in fully grown broiler chickens ready for slaughter and consumption.
+        Our chickens are healthy, well-fed, and raised under proper care to ensure high quality meat.
     </p>
+
 </div>
 
-<!-- PRODUCTS -->
+<!-- PRODUCTS SECTION -->
+
 <div class="section">
+
     <h2>Our Broilers</h2>
 
     <div class="grid">
 
         <div class="card">
+
             <img src="broilers.jpg">
+
             <h3>Market Ready Chickens</h3>
-            <p>Fully grown broilers ready for sale and cooking.</p>
+
+            <p>
+                Fully grown broilers ready for sale and cooking.
+            </p>
+
         </div>
 
         <div class="card">
+
             <img src="broilers2.jpg">
+
             <h3>Healthy & Well Fed</h3>
-            <p>Raised with proper feeding and hygiene.</p>
+
+            <p>
+                Raised with proper feeding and hygiene.
+            </p>
+
         </div>
 
         <div class="card">
+
             <img src="chicks.jpg">
+
             <h3>Strong Chicks</h3>
-            <p>Available for poultry farmers.</p>
+
+            <p>
+                Available for poultry farmers.
+            </p>
+
         </div>
-   <section style="padding:50px 20px; background:#f5f5f5; text-align:center; font-family:Arial, sans-serif;">
-  
-  <h2 style="color:#2e7d32; font-size:36px; margin-bottom:10px;">
-    Our Chicken Prices
-  </h2>
 
-  <p style="color:#555; margin-bottom:40px; font-size:18px;">
-    Fresh, healthy, and affordable poultry products
-  </p>
-
-  <div style="display:flex; justify-content:center; gap:25px; flex-wrap:wrap;">
-
-    <!-- Dressed Chicken -->
-    <div style="background:white; padding:25px; border-radius:15px; width:280px; box-shadow:0 5px 15px rgba(0,0,0,0.1); transition:0.3s;">
-      <h3 style="color:#222;">Dressed Chicken</h3>
-      
-      <p style="font-size:32px; color:#2e7d32; margin:15px 0;">
-        <strong>MK 23,000 Each </strong>
-      </p>
-
-      <p style="color:#666;">
-        Cleaned, fresh, and ready for cooking
-      </p>
     </div>
 
-    <!-- Live Chicken -->
-    <div style="background:white; padding:25px; border-radius:15px; width:280px; box-shadow:0 5px 15px rgba(0,0,0,0.1); transition:0.3s;">
-      <h3 style="color:#222;">Live Chicken</h3>
-
-      <p style="font-size:32px; color:#2e7d32; margin:15px 0;">
-        <strong>MK 21,000 Each </strong>
-      </p>
-
-      <p style="color:#666;">
-        Healthy live broiler chicken
-      </p>
-    </div>
-
-    <!-- Bulk Offer -->
-    <div style="background:#2e7d32; color:white; padding:25px; border-radius:15px; width:280px; box-shadow:0 5px 15px rgba(0,0,0,0.15);">
-      <h3>Bulk Orders</h3>
-
-      <p style="font-size:32px; margin:15px 0;">
-        <strong>MK 20,000 Each</strong>
-      </p>
-
-      <p>
-        Special price for orders above 5 chickens
-      </p>
-    </div>
-
-  </div>
-
-  <!-- WhatsApp Button -->
-  <a href="https://wa.me/265883689015" target="_blank"
-     style="display:inline-block; margin-top:40px; padding:15px 30px; background:#25D366; color:white; text-decoration:none; border-radius:10px; font-size:18px; font-weight:bold; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-     
-     📞 Order Now on WhatsApp
-  </a>
-
-</section>
-    </div>
 </div>
 
-<!-- CONTACT -->
+<!-- PRICE SECTION -->
+
+<div class="price-section">
+
+    <h2>Our Chicken Prices</h2>
+
+    <p>
+        Fresh, healthy, and affordable poultry products
+    </p>
+
+    <div class="price-grid">
+
+        <!-- Dressed Chicken -->
+
+        <div class="price-card">
+
+            <h3>Dressed Chicken</h3>
+
+            <p class="price">
+                MK 23,000 Each
+            </p>
+
+            <p>
+                Cleaned, fresh, and ready for cooking
+            </p>
+
+        </div>
+
+        <!-- Live Chicken -->
+
+        <div class="price-card">
+
+            <h3>Live Chicken</h3>
+
+            <p class="price">
+                MK 21,000 Each
+            </p>
+
+            <p>
+                Healthy live broiler chicken
+            </p>
+
+        </div>
+
+        <!-- Bulk Orders -->
+
+        <div class="price-card bulk">
+
+            <h3>Bulk Orders</h3>
+
+            <p class="price">
+                MK 20,000 Each
+            </p>
+
+            <p>
+                Special price for orders above 5 chickens
+            </p>
+
+        </div>
+
+    </div>
+
+    <a class="btn"
+
+       href="https://wa.me/265883689015"
+       target="_blank">
+
+       📞 Order Now on WhatsApp
+
+    </a>
+
+</div>
+
+<!-- CONTACT SECTION -->
+
 <div class="section">
+
     <h2>Contact Us</h2>
-    <p>📞 0883 689 015 | 0992 606 355</p>
-    <p>📍 Blantyre, Malawi</p>
+
+    <p>
+        📞 0883 689 015 | 0992 606 355
+    </p>
+
+    <p>
+        📍 Along michiru Road, Blantyre, Malawi
+    </p>
+
 </div>
+
+<!-- FOOTER -->
 
 <footer>
-    <p>© 2026 CBN Poultry Farm</p>
+
+    <p>
+        © 2026 CBN POULTRY
+    </p>
+
 </footer>
 
 </body>
